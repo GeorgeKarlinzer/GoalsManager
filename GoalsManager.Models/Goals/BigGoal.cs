@@ -1,15 +1,14 @@
-﻿namespace GoalsManager.Models.Goals
+﻿namespace GoalsManager
 {
     public class BigGoal : GoalBase
     {
         public DateTime Deadline { get; set; }
-    }
 
-    public class BigGoalStep
-    {
-        public int GoalId { get; set; }
-        public required DateTime CompleteDate { get; set; }
+        public List<BigGoalStep> Steps { get; set; }
 
-        public required BigGoal Goal { get; set; }
+        public BigGoal()
+        {
+            Steps = new();
+        }
     }
 }
