@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GoalsManager.Web.Controllers
 {
-    [Controller]
+    [ApiController]
     [Authorize]
     public class CalendarController : Controller
     {

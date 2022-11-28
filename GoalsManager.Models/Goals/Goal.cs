@@ -1,8 +1,14 @@
 ﻿namespace GoalsManager
 {
-    public class Goal : GoalBase
+    public class Goal : TaskBase
     {
-        public required DateTime Deadline { get; set; }
-        public DateTime? CompleteDate { get; set; }
+        public DateTime Deadline { get; set; }
+
+        public List<GoalStep> Steps { get; set; }
+
+        public Goal()
+        {
+            Steps = new();
+        }
     }
 }
