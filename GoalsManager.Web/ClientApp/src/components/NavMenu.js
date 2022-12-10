@@ -3,6 +3,7 @@ import { Collapse, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink } from '
 import { Link } from 'react-router-dom';
 import { LoginMenu } from './api-authorization/LoginMenu';
 import './NavMenu.css';
+import { ApplicationRoutes } from '../ApplicationRoutes';
 
 export class NavMenu extends Component {
     static displayName = NavMenu.name;
@@ -31,13 +32,13 @@ export class NavMenu extends Component {
                     <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={!this.state.collapsed} navbar>
                         <ul className="navbar-nav flex-grow">
                             <NavItem>
-                                <NavLink tag={Link} className="text-dark" to="/calendar">Calendar</NavLink>
+                                <NavLink tag={Link} className="text-dark" to={ApplicationRoutes.calendar}>Calendar</NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink tag={Link} className="text-dark" to="/goals">Goals</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink tag={Link} className="text-dark" to="/tasks">Tasks</NavLink>
+                                <NavLink tag={Link} className="text-dark" to={ApplicationRoutes.tasks}>Tasks</NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink tag={Link} className="text-dark" to="/recurringgoals">Recurring goals</NavLink>

@@ -41,6 +41,8 @@
   <ItemGroup>
     <None Remove="ClientApp\src\ApplicationRoutes.ts" />
     <None Remove="ClientApp\src\components\Calendar.tsx" />
+    <None Remove="ClientApp\src\components\TasksMainView.tsx" />
+    <None Remove="ClientApp\src\Models\task.ts" />
   </ItemGroup>
 
   <ItemGroup>

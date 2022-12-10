@@ -1,0 +1,15 @@
+﻿body {
+}
+
+.content {
+    display: flex;
+}
+
+.day{
+    background-color:red;
+    min-height: 500px;
+}
+
+.my-border{
+    border: 1px solid black;
+}
