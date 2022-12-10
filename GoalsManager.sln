@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoalsManager.Web", "GoalsManager.Web\GoalsManager.Web.csproj", "{125B1DDC-CEBE-4A14-912B-38B83271274F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoalsManager.Web", "GoalsManager.Web\GoalsManager.Web.csproj", "{125B1DDC-CEBE-4A14-912B-38B83271274F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoalsManager.Logic", "GoalsManager.Logic\GoalsManager.Logic.csproj", "{D91C964C-81DC-443A-ABF1-BA1EECE6A51C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoalsManager.Logic", "GoalsManager.Logic\GoalsManager.Logic.csproj", "{D91C964C-81DC-443A-ABF1-BA1EECE6A51C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoalsManager.DataAccess", "GoalsManager.DataAccess\GoalsManager.DataAccess.csproj", "{99302ACA-A2AC-4F6F-87F8-860A7B1CFBBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoalsManager.DataAccess", "GoalsManager.DataAccess\GoalsManager.DataAccess.csproj", "{99302ACA-A2AC-4F6F-87F8-860A7B1CFBBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoalsManager.Models", "GoalsManager.Models\GoalsManager.Models.csproj", "{61F2C499-932D-402A-A255-C6AB3A96909A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoalsManager.Models", "GoalsManager.Models\GoalsManager.Models.csproj", "{61F2C499-932D-402A-A255-C6AB3A96909A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsTsTranslator", "CsTsTranslator\CsTsTranslator.csproj", "{50131BE9-91F3-49EA-8B3D-EB868B25B106}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{61F2C499-932D-402A-A255-C6AB3A96909A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61F2C499-932D-402A-A255-C6AB3A96909A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61F2C499-932D-402A-A255-C6AB3A96909A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50131BE9-91F3-49EA-8B3D-EB868B25B106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50131BE9-91F3-49EA-8B3D-EB868B25B106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50131BE9-91F3-49EA-8B3D-EB868B25B106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50131BE9-91F3-49EA-8B3D-EB868B25B106}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
