@@ -24,6 +24,7 @@ builder.Services.AddAuthentication()
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
+
 builder.Services.Configure<IdentityOptions>(options =>
 {
     // Default Password settings.

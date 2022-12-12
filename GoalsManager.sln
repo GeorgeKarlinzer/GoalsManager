@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoalsManager.DataAccess", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoalsManager.Models", "GoalsManager.Models\GoalsManager.Models.csproj", "{61F2C499-932D-402A-A255-C6AB3A96909A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsTsTranslator", "CsTsTranslator\CsTsTranslator.csproj", "{50131BE9-91F3-49EA-8B3D-EB868B25B106}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsTsTranslator", "CsTsTranslator\CsTsTranslator.csproj", "{50131BE9-91F3-49EA-8B3D-EB868B25B106}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoalsManager.Web.Tests", "GoalsManager.Web.Tests\GoalsManager.Web.Tests.csproj", "{3085371D-466F-4061-A138-FB1277B3AC84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{50131BE9-91F3-49EA-8B3D-EB868B25B106}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50131BE9-91F3-49EA-8B3D-EB868B25B106}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50131BE9-91F3-49EA-8B3D-EB868B25B106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3085371D-466F-4061-A138-FB1277B3AC84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3085371D-466F-4061-A138-FB1277B3AC84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3085371D-466F-4061-A138-FB1277B3AC84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3085371D-466F-4061-A138-FB1277B3AC84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
